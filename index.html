@@ -32,11 +32,29 @@
 
 <br><br>
 
+<label>Quantity (in quintals):</label><br>
+<input type="number" id="quantity">
+
+<br><br>
+
+<label>Available Storage Space (in cubic feet):</label><br>
+<input type="number" id="space">
+
+<br><br>
+
 <button onclick="checkStorage()">Check Risk</button>
 
 <h2 id="result"></h2>
-
+<p id="riskPercent"></p>
+<h2>Best Market to Sell</h2>
+<p id="marketResult"></p>
+<h2>Market Price Comparison</h2>
+<canvas id="marketChart"></canvas>
+<h2>Storage Space Analysis</h2>
+<p id="spaceResult"></p>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="script.js"></script>
 
 </body>
 </html>
+
