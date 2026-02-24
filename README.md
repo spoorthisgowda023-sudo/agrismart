@@ -9,6 +9,8 @@ AgriSmart helps farmers check spoilage risk based on:
 - Temperature
 - Humidity
 - Storage days
+- space available
+- quantity
 
 It provides risk alerts and suggestions to reduce post-harvest losses.
 
